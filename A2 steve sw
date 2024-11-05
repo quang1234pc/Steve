@@ -1,0 +1,10 @@
+local weapon = game.Players.LocalPlayer.Backpack
+_G.weapon = true
+while _G.weapon do
+      wait()
+for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+    if v.Name == "Gryphon" then
+        v.Parent = game.Players.LocalPlayer
+    end
+    end
+    end
